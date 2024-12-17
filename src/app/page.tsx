@@ -9,7 +9,7 @@ export default function Home() {
             <div
                 className="absolute inset-0 z-0"
                 style={{
-                  backgroundImage: "url('/public/bg.jpg')",
+                  backgroundImage: "url('/bg.jpg')",
                   backgroundSize: "cover",
                   backgroundPosition: "center",
                 }}
@@ -17,13 +17,16 @@ export default function Home() {
               <div className="absolute inset-0 bg-black/20" />
             </div>
             <div className="relative z-10 text-center text-white">
-              <h1 className="text-5xl md:text-7xl font-bold mb-4">
+              <h1 className="text-5xl md:text-8xl font-bold mb-4"
+              style = {{
+                alignItems: "center"
+              }}>
                 Create a{" "}
                 <span className="block text-6xl md:text-8xl mt-2">
                 sustainable
               </span>{" "}
                 <span className="block text-6xl md:text-8xl mt-2">
-                future.
+                future
               </span>
               </h1>
               <p className="text-xl md:text-2xl mt-6">
