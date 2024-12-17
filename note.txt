@@ -7,6 +7,14 @@ npm install --save-dev @types/react @types/react-dom
 npm install 
 npm run dev
 
+
 Getting updated information 
 
 git pull
+
+
+Git commiting
+
+git add .
+git commit -m "message"
+git push origin head
