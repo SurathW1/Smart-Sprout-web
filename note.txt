@@ -1,0 +1,12 @@
+Running the code 
+
+git clone https://github.com/SurathW1/Smart-Sprout-web.git
+npm install lucide-react
+npm list lucide-react
+npm install --save-dev @types/react @types/react-dom
+npm install 
+npm run dev
+
+Getting updated information 
+
+git pull
