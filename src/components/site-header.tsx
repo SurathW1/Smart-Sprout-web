@@ -6,7 +6,7 @@ import { Input } from "@/components/ui/input"
 
 export function SiteHeader() {
     return (
-        <header className="fixed top-0 w-full z-50 backdrop-blur-md pt-4" >
+        <header className="fixed top-0 w-full z-50 pt-4" >
             <div className="container flex h-16 items-center justify-between px-4">
                 <div className="flex items-center gap-6">
                     <Link href="/" className="flex items-center space-x-2">
@@ -16,7 +16,7 @@ export function SiteHeader() {
                     
                 </div>
                 <nav className="flex items-center gap-4 lg:gap-6 absolute right-3" >
-                    <div className="hidden lg:flex items-center space-x-1 relative bg-emerald-500 text-white gap-10 rounded-2xl px-5 ">
+                    <div className="hidden lg:flex items-center space-x-1 relative bg-emerald-700 text-white gap-10 rounded-2xl px-5 ">
                         <Search className="absolute left-3 h-4 w-4 text-white" />
                         <Input
                             type="search"
