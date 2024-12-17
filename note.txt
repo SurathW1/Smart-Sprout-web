@@ -1,7 +1,7 @@
 Running the code 
 
-git clone https://github.com/SurathW1/Smart-Sprout-web.git
-npm install lucide-react
+git clone https://github.com/SurathW1/Smart-Sprout-web.git - to clone the repository
+npm install lucide-react 
 npm list lucide-react
 npm install --save-dev @types/react @types/react-dom
 npm install 
@@ -10,11 +10,19 @@ npm run dev
 
 Getting updated information 
 
-git pull
+git pull - to get the changes 
 
 
 Git commiting
 
-git add .
-git commit -m "message"
-git push origin head
+git add . - adding to the commiting stage
+git commit -m "message" - commit your changes
+git push origin head - pushing your changes into the repo
+
+Git branch
+
+git branch - to see all the branches 
+git branch -c branch_name
+git checkout branch_name
+
+ctrl + c - to terminate the process of the port
