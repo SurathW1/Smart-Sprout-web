@@ -21,9 +21,8 @@ export function SiteHeader() {
                         <Input
                             type="search"
                             placeholder="Search..."
-                            className="pl-10 w-40 border-none text-white placeholder-{white}"
+                            className="pl-10 w-40 border-none placeholder:text-white"
                         />
-                        <br />
                         <Link
                             href="/"
                             className="text-sm font-medium text-white hover:text-primary transition-colors"
