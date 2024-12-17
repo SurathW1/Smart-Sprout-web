@@ -10,17 +10,7 @@ export function SiteHeader() {
             <div className="container flex h-16 items-center justify-between px-4">
                 <div className="flex items-center gap-6">
                     <Link href="/" className="flex items-center space-x-2">
-                        <svg
-                            xmlns="http://www.w3.org/2000/svg"
-                            viewBox="0 0 24 24"
-                            className="h-8 w-8 text-emerald-600"
-                            fill="none"
-                            stroke="currentColor"
-                            strokeWidth="2"
-                        >
-                            <path d="M12 2L2 7l10 5 10-5-10-5zM2 17l10 5 10-5M2 12l10 5 10-5" />
-                        </svg>
-                        <span className="font-bold">SmartSprout</span>
+                        <img src="/Logo.png" alt="" height={93} width={63}/>
                     </Link>
                     <div className="hidden lg:flex items-center space-x-1 relative">
                         <Search className="absolute left-3 h-4 w-4 text-muted-foreground" />
