@@ -18,6 +18,8 @@ Git commiting
 git add . - adding to the commiting stage
 git commit -m "message" - commit your changes
 git push origin head - pushing your changes into the repo
+git pull origin main
+git push origin main
 
 Git branch
 
