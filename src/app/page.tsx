@@ -41,8 +41,19 @@ export default function Home() {
               ))}
             </div>
           </section>
+          <section className="min-h-screen bg-gray-100 flex items-center justify-center">
+            <div className="text-center">
+              <h2 className="text-4xl font-bold mb-4">Welcome To The Future Of Agriculture</h2>
+              <p className="text-lg text-gray-600">
+                Smart Sprout is your ultimate platform for smarter, sustainable farming.
+              </p>
+              <p className="text-lg text-gray-600">
+Revolutionize your farming with Smart Sprout! Get real-time soil insights, detect crop diseases, and plan ahead with accurate weather forecasts—all powered by AI and IoT technology. Smarter farming starts here. Let’s grow better, together!              </p>
+            </div>
+          </section>
         </main>
       </>
   )
 }
+
 
