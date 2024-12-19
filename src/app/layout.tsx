@@ -3,8 +3,9 @@ import { Inter } from 'next/font/google'
 
 const inter = Inter({ subsets: ["latin"] })
 
+//hello this is sample comment
 export const metadata = {
-    title: "SmartSprout - Create a sustainable future",
+    title: "SmartSprout - Create a sustainable future ",
     description: "The Farmers Smart Companion",
 }
 
