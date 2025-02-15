@@ -1,5 +1,6 @@
 import { SiteHeader } from "@/components/site-header"
 import { SiteCarousel } from "@/components/SiteCarousel"
+import AboutUs from "@/components/AboutUs"
 
 export default function Home() {
 
@@ -7,6 +8,7 @@ export default function Home() {
     <div>
       <SiteHeader />
       <SiteCarousel/>
+      <AboutUs/>
     </div>
   )
 }
