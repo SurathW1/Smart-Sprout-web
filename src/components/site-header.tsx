@@ -13,17 +13,9 @@ export function SiteHeader() {
                         <img src="/Logo.png" alt="" height={93} width={63}/>
                     </Link>
                     <br />
-                    
                 </div>
                 <nav className="flex items-center gap-4 lg:gap-6 absolute right-3" >
                     <div className="hidden lg:flex items-center space-x-1 relative bg-emerald-700 text-white gap-10 rounded-2xl px-5 ">
-                        <Search className="absolute left-3 h-4 w-4 text-white" />
-                        <Input
-                            type="search"
-                            placeholder="Search..."
-                            className="pl-10 w-40 border-none text-white placeholder-{white}"
-                        />
-                        <br />
                         <Link
                             href="/"
                             className="text-sm font-medium text-white hover:text-primary transition-colors"
@@ -43,12 +35,6 @@ export function SiteHeader() {
                             Blog
                         </Link>
                         <Link
-                            href="/store"
-                            className="text-sm font-medium text-white hover:text-primary transition-colors"
-                        >
-                            Store
-                        </Link>
-                        <Link
                             href="/contact"
                             className="text-sm font-medium text-white hover:text-primary transition-colors"
                         >
@@ -58,7 +44,6 @@ export function SiteHeader() {
                         <Button variant="default" className="bg-zinc-900 text-white hover:bg-zinc-800 rounded-2xl">
                             Download Now
                         </Button>
-                    
                 </nav>
             </div>
         </header>
